@@ -28,7 +28,7 @@ The most common example Hello World of Node.js is a web server:
 const { createServer } = require('node:http');
 
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = 5400;
 
 const server = createServer((req, res) => {
   res.statusCode = 200;
@@ -45,7 +45,7 @@ server.listen(port, hostname, () => {
 import { createServer } from 'node:http';
 
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = 5400;
 
 const server = createServer((req, res) => {
   res.statusCode = 200;
